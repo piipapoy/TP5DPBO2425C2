@@ -4,6 +4,10 @@ Saya M. Raffa Mizanul Insan dengan NIM 2409119 mengerjakan TP 5 dalam mata kulia
 
 ---
 
+## Dokumentasi
+
+[Demo Program](https://youtu.be/EVI2UcirN68)
+
 ## Ringkasan
 
 Tugas ini merupakan pengembangan dari TP4, di mana aplikasi GUI manajemen produk yang sebelumnya menggunakan `ArrayList` sebagai database sementara, kini diintegrasikan dengan database **MySQL**. Semua operasi CRUD (Create, Read, Update, Delete) sekarang berinteraksi langsung dengan database.
@@ -25,7 +29,3 @@ Secara keseluruhan, desain antarmuka dan struktur kelas `Product` tetap sama. Pe
 4.  **Validasi Input**: Ditambahkan logika validasi baru sebelum data dikirim ke database:
     * **Pengecekan Kolom Kosong**: Program akan menampilkan dialog *error* jika ada *field* atau pilihan yang belum diisi saat menekan tombol "Add" atau "Update".
     * **Pengecekan ID Duplikat**: Saat menambah data baru, program akan terlebih dahulu memeriksa ke database apakah ID yang dimasukkan sudah ada. Jika sudah ada, proses akan dibatalkan dan dialog *error* akan muncul.
-
-## Dokumentasi
-
-[Demo Program](https://github.com/piipapoy/TP5DPBO2425C2/blob/main/Dokumentasi/Dokumentasi%20TP5%20DPBO.mp4)
